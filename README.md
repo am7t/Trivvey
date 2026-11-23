@@ -14,7 +14,7 @@ Trivvey loads trivia questions from a bundled JSON file, lets you open a questio
 
 ## Run it
 
-Open `Trivvey.xcodeproj` in Xcode, choose an iPhone simulator, and run the Trivvey scheme.
+Open `Trivvey.xcodeproj` in Xcode. Choose the `Trivvey` scheme and an iPhone simulator (the project was built on iPhone 18 Pro with iOS 27), then press **Command-R**. The app supports iOS 17 and later.
 
 The questions are bundled in `Trivvey/questions.json`, so the app works without a network connection.
 
