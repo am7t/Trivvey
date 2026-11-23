@@ -1,0 +1,34 @@
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+48E0F96C682DC1558B12A4D3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+CF5441D9F64B08FDBB19F51E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+DD581541B0C61AAD1324FC08 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+DCF34B9334280AEC0C23B67A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivveyApp.swift; sourceTree = "<group>"; };
+9566AB6E0C9E1EFCB8BF2FF1 = { isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+B15A13ACECE86FF5B996CE6C = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+82FDB5029E6F8623BBAF7240 = { isa = PBXBuildFile; fileRef = 48E0F96C682DC1558B12A4D3; };
+FE650F1155982906F1973B8D = { isa = PBXBuildFile; fileRef = CF5441D9F64B08FDBB19F51E; };
+C1E9E1FF823B9EF9FB5A1E6E = { isa = PBXBuildFile; fileRef = DD581541B0C61AAD1324FC08; };
+1D9EE51878B4F7CE39115C46 = { isa = PBXBuildFile; fileRef = DCF34B9334280AEC0C23B67A; };
+65559A66BFDA06BFCCE403DE = { isa = PBXBuildFile; fileRef = 9566AB6E0C9E1EFCB8BF2FF1; };
+D1548062BFF01AC11BAD99FD = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+82CF2A43A7100F086D7FCFDD = { isa = PBXGroup; children = (48E0F96C682DC1558B12A4D3, CF5441D9F64B08FDBB19F51E, DD581541B0C61AAD1324FC08, DCF34B9334280AEC0C23B67A, 9566AB6E0C9E1EFCB8BF2FF1, B15A13ACECE86FF5B996CE6C); path = Trivvey; sourceTree = "<group>"; };
+7E656FA9827F119D34D65CD2 = { isa = PBXGroup; children = (D1548062BFF01AC11BAD99FD); name = Products; sourceTree = "<group>"; };
+518DA81DB9B99529C0C0AEBE = { isa = PBXGroup; children = (82CF2A43A7100F086D7FCFDD, 7E656FA9827F119D34D65CD2); sourceTree = "<group>"; };
+7A70D71C385290AF96BF1031 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (82FDB5029E6F8623BBAF7240, FE650F1155982906F1973B8D, C1E9E1FF823B9EF9FB5A1E6E, 1D9EE51878B4F7CE39115C46); runOnlyForDeploymentPostprocessing = 0; };
+285BB1C1430063331E9F5DD0 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (65559A66BFDA06BFCCE403DE); runOnlyForDeploymentPostprocessing = 0; };
+424153ED3CD079DB4DB459AF = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+DFFC8A3D1ABD386281BD4E64 = { isa = PBXNativeTarget; buildConfigurationList = 1D97B77EAD2380603A3F2A82; buildPhases = (7A70D71C385290AF96BF1031, 424153ED3CD079DB4DB459AF, 285BB1C1430063331E9F5DD0); buildRules = (); dependencies = (); name = Trivvey; productName = Trivvey; productReference = D1548062BFF01AC11BAD99FD; productType = "com.apple.product-type.application"; };
+9A31334CC6998A2A835A3D11 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2700; }; buildConfigurationList = 1F4E3D13C2320EDA50221924; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 518DA81DB9B99529C0C0AEBE; productRefGroup = 7E656FA9827F119D34D65CD2; projectDirPath = ""; projectRoot = ""; targets = (DFFC8A3D1ABD386281BD4E64); };
+82000B87E0EC13AD7FD6DA43 = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; INFOPLIST_FILE = Trivvey/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.am7t.Trivvey; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+16ACE556BD5CA3C51FD3F043 = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; INFOPLIST_FILE = Trivvey/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.am7t.Trivvey; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+92E165A9035A603BE73D2E62 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Debug; };
+E1D3BBA94590957B0374D6E9 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Release; };
+1D97B77EAD2380603A3F2A82 = { isa = XCConfigurationList; buildConfigurations = (82000B87E0EC13AD7FD6DA43, 16ACE556BD5CA3C51FD3F043); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+1F4E3D13C2320EDA50221924 = { isa = XCConfigurationList; buildConfigurations = (92E165A9035A603BE73D2E62, E1D3BBA94590957B0374D6E9); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    };
+    rootObject = 9A31334CC6998A2A835A3D11;
+}
